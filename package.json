@@ -1,0 +1,43 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@wsvaio/utils": "^1.0.22",
+    "jszip": "^3.10.1",
+    "shuimo-ui": "^0.3.0-alpha.14",
+    "vue-request": "^2.0.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.4",
+    "@iconify/json": "^2.2.191",
+    "@nuxt/devtools": "^1.0.8",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/stylelint-module": "^5.2.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@shuimo-design/shuimo-ui-nuxt": "^0.0.1-beta.4",
+    "@unocss/eslint-plugin": "^0.58.5",
+    "@unocss/nuxt": "^0.58.5",
+    "@vue-macros/reactivity-transform": "^0.4.3",
+    "@vueuse/core": "^10.9.0",
+    "@vueuse/nuxt": "^10.9.0",
+    "@wsvaio/eslint-config": "^1.0.4",
+    "@wsvaio/pinia-plugin-persist": "^1.0.3",
+    "@wsvaio/stylelint-config": "^0.0.10",
+    "eslint": "^8.57.0",
+    "less": "^4.2.0",
+    "nuxt": "^3.10.3",
+    "pinia": "^2.1.7",
+    "stylelint": "^16.2.1",
+    "unocss": "^0.58.5",
+    "vue": "3.4.21",
+    "vue-router": "^4.3.0"
+  }
+}
